@@ -1,0 +1,174 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.brand_image h1 {
+  font-size: 22px;
+}
+nav {
+  font-size: 20px;
+  background-color: green;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+}
+
+nav li {
+  padding-left: 20px;
+}
+
+nav li a {
+  color: white;
+  text-decoration: none;
+}
+
+nav li a:hover {
+  color: black;
+}
+
+.main_section {
+  padding: 20%;
+  text-align: center;
+}
+
+.products {
+  padding: 10%;
+  display: flex;
+  margin-top: -190px;
+}
+
+.product {
+  padding: 10px;
+  margin-top: -40px;
+}
+.product h1 {
+  margin-top: 1rem;
+}
+.product .content {
+  background-color: white;
+  padding: 20px;
+  box-shadow: 0 0 2px black;
+}
+.img_content {
+  text-align: center;
+}
+
+.main_button {
+  margin-top: 1rem;
+  background-color: green;
+  width: 100%;
+  padding: 10px;
+  font-size: 17px;
+  color: white;
+  border: 0;
+  border-radius: 4px;
+}
+
+.main_button:hover {
+  background-color: #5e9e22;
+  cursor: pointer;
+}
+
+@media (max-width: 600px) {
+  .products {
+    display: inherit;
+    height: auto;
+    margin-top: auto;
+    background-color: rgb(194, 191, 191);
+  }
+  .product {
+    margin-top: auto;
+  }
+
+  .main_section {
+    padding: 10%;
+  }
+  .row{
+    display:inherit;
+
+}
+}
+
+.container{
+    max-width: 900px;
+    margin: auto;
+    margin-top: 8rem;
+}
+
+.row{
+    display:flex;
+    gap: 30px;
+}
+
+.col-1{
+    width: 8.3333333333%;
+}
+
+.col-2{
+width: 16.9999999999%;
+}
+
+.col-3{
+    width: 24.999999999%;
+}
+.col-4{
+    width: 33.333333332%;
+}
+.col-5{
+    
+    width: 41.666666665%;
+}
+.col-6{
+    width: 49.666666668%;
+}
+.col-7{
+    width: 58.333333331%;
+}
+.col-8{
+    width: 66.666666664%;
+}
+.col-9{
+    width: 74.999999997%;
+}
+.col-10{
+    width: 83.333333333% ;
+}
+.col-11{
+    width: 91.666666663% ;
+}
+.col-12{
+    width: 100%;
+}
+.modulo_pago{
+    background-color: white;
+    box-shadow: 0px 0 2px 1px #e6e5e9;
+    padding: 10px;
+}
+
+.modulo_pago_img{
+    text-align: center;
+    margin-bottom: 1rem;
+}
+.modulo_pago input{
+    width: 100%;
+    margin-top: 1rem;
+    height: 35px;
+    border-radius: 3px;
+    box-sizing: border-box;
+}
+
+.main_boton{
+    background-color: green;
+    font-size: 20px;
+    color: white;
+    cursor: pointer;
+}
+
+
